@@ -1,5 +1,16 @@
-import React, { useState, useEffect } from 'react';
-import { Skull, AlertTriangle, Zap, Crosshair, Radar, Map, Search, Lock } from 'lucide-react';
+import React, { useState, useEffect } from "react";
+import {
+  Skull,
+  AlertTriangle,
+  Zap,
+  Crosshair,
+  Radar,
+  Map,
+  Search,
+  Lock,
+} from "lucide-react";
+import "./App.css";
+
 
 const ENTITY_TYPES = [
   { type: 'Warlord', icon: '⚔️', defenseBoost: 30, desc: 'Military genius', threat: 'EXTREME' },

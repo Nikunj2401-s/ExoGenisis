@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #0b0b0b; /* deep dark base */
+  color: white;
+  overflow-x: hidden;
+}
+
+body {
+  background: radial-gradient(circle at 50% 20%, #1a0b0b, #000);
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
