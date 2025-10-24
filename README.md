@@ -43,38 +43,29 @@ npm run dev
 App will start at
 👉 http://localhost:5173
 
-🧠 Gameplay Overview
-Action	Cost 💎	Description
-Explore Sector	500	Scan nearby regions for hidden planets
-Scan Planet	300	Reveal entity data, threat level, and resources
-Invade	2000	Attempt to conquer a planet and gain resources
-Obliterate	3000	Destroy everything — gain fear, lose reputation
-Assimilate	4000	Terraform habitable worlds peacefully
+## 🧠 Gameplay Overview
 
-⚠️ Critical Warnings System
-💎 Low Resources
+| Action | Cost 💎 | Description |
+|--------|----------|-------------|
+| **Explore Sector** | 500 | Scan nearby regions for hidden planets |
+| **Scan Planet** | 300 | Reveal entity data, threat level, and resources |
+| **Invade** | 2000 | Attempt to conquer a planet and gain resources |
+| **Obliterate** | 3000 | Destroy everything — gain fear, lose reputation |
+| **Assimilate** | 4000 | Terraform habitable worlds peacefully |
 
-🚀 Weak Fleet Power
+---
 
-😈 Low Morale
+## ⚠️ Critical Warnings System
+
+- 💎 **Low Resources**  
+- 🚀 **Weak Fleet Power**  
+- 😈 **Low Morale**
 
 Each warning dynamically appears when your empire begins to collapse.
 
- 🖼️ UI Preview
+---
 
+## 🖼️ UI Preview
 
-Red-tinted galaxy console with animated threat levels and tactical interface.
+> *Red-tinted galaxy console with animated threat levels and tactical interface.*
 
-🌍 Deployment (Optional)
-Deploy on Vercel
-bash
-Copy code
-npm run build
-Then upload the dist/ folder to Vercel
-
-Deploy on GitHub Pages
-bash
-Copy code
-npm install gh-pages --save-dev
-npm run build
-npm run deploy
