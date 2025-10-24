@@ -1,16 +1,80 @@
-# React + Vite
+# 🪐 ExoGensis — Galactic Exploration & Conquest App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ExoGensis is a **React + Vite + TailwindCSS** simulation game that lets you explore a procedurally generated galaxy, discover alien civilizations, and choose whether to **scan, conquer, or annihilate** planets.  
+It’s a mix of strategy, randomness, and cosmic chaos.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🌌 **Procedurally Generated Galaxy** — Each run creates new planets, species, and sectors.  
+- 🧠 **AI Entities** — Discover alien warlords, hive queens, or psionic overlords with unique abilities and weaknesses.  
+- ⚔️ **Tactical Actions** — Choose to scan, invade, terraform, or obliterate planets.  
+- 💎 **Resource Management** — Balance war funds, fleet power, morale, and fear level.  
+- 📊 **Dynamic UI Dashboard** — Animated power bars, color-coded logs, and alert systems.  
+- 🛰️ **Interactive Galaxy Map** — Explore sectors and reveal hidden threats.  
+- 💀 **Activity Logs** — Real-time updates for every scan, battle, and anomaly.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧩 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ **React 18 (Vite)**
+- 🎨 **Tailwind CSS**
+- 🧰 **Lucide React Icons**
+- 🔧 **PostCSS + Autoprefixer**
+
+---
+
+## 🛠️ Installation
+
+### 1️⃣ Clone this repository
+```bash
+git clone https://github.com/Nikunj2401-s/ExoGenisis.git
+cd ExoGenisis
+2️⃣ Install dependencies
+bash
+Copy code
+npm install
+3️⃣ Run locally
+bash
+Copy code
+npm run dev
+App will start at
+👉 http://localhost:5173
+
+### 🧠 Gameplay Overview
+Action	Cost 💎	Description
+Explore Sector	500	Scan nearby regions for hidden planets
+Scan Planet	300	Reveal entity data, threat level, and resources
+Invade	2000	Attempt to conquer a planet and gain resources
+Obliterate	3000	Destroy everything — gain fear, lose reputation
+Assimilate	4000	Terraform habitable worlds peacefully
+
+⚠️ Critical Warnings System
+💎 Low Resources
+
+🚀 Weak Fleet Power
+
+😈 Low Morale
+
+Each warning dynamically appears when your empire begins to collapse.
+
+### 🖼️ UI Preview
+
+
+Red-tinted galaxy console with animated threat levels and tactical interface.
+
+### 🌍 Deployment (Optional)
+Deploy on Vercel
+bash
+Copy code
+npm run build
+Then upload the dist/ folder to Vercel
+
+Deploy on GitHub Pages
+bash
+Copy code
+npm install gh-pages --save-dev
+npm run build
+npm run deploy
