@@ -43,7 +43,7 @@ npm run dev
 App will start at
 👉 http://localhost:5173
 
-### 🧠 Gameplay Overview
+🧠 Gameplay Overview
 Action	Cost 💎	Description
 Explore Sector	500	Scan nearby regions for hidden planets
 Scan Planet	300	Reveal entity data, threat level, and resources
@@ -60,12 +60,12 @@ Assimilate	4000	Terraform habitable worlds peacefully
 
 Each warning dynamically appears when your empire begins to collapse.
 
-### 🖼️ UI Preview
+ 🖼️ UI Preview
 
 
 Red-tinted galaxy console with animated threat levels and tactical interface.
 
-### 🌍 Deployment (Optional)
+🌍 Deployment (Optional)
 Deploy on Vercel
 bash
 Copy code
